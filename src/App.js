@@ -1,6 +1,6 @@
-import Home from './components/layout/Home'
-import About from './components/layout/About'
-import Contact from './components/layout/Contact'
+import Home from './components/layout/Home/Home'
+import About from './components/layout/About/About'
+import Contact from './components/layout/Contact/Contact'
 
 function App() {
 	return (
