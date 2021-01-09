@@ -2,7 +2,10 @@
     --base-dark: #3e3048;
     --base-light: #ebe1ff;
     --contrast-light: #8879a7;
-    --base-gradient: var(--base-light), white
+    --base-gradient: var(--base-light), white;
+
+    --base-radius: 3px;
+    --base-shadow: 1px 1px 3px 
 }
 
 h1,

@@ -2,6 +2,13 @@
     height: 100vh;
 }
 
+.card {
+    border-radius: var(--base-radius);
+    box-shadow: var(--base-shadow);
+    background-color: white;
+    padding: 1.5em;
+}
+
 .content {
     max-width: 1200px;;
     margin-right: auto;

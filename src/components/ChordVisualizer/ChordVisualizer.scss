@@ -1,0 +1,43 @@
+.ChordVisualizer {
+    text-align: center;
+}
+
+.Chord {
+    --chord-diameter: 250px;
+
+    background: var(--base-light);
+    border-radius: 50%;
+    display: grid;
+    gap: 2.5em;
+    height: var(--chord-diameter);
+    margin: 0 auto;
+    padding: 1.5em;
+    place-content: center center;
+    width: var(--chord-diameter);
+
+    &__name {
+        color: var(--base-dark);
+    }
+
+    &__notes {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+        & li {
+            &::after {
+                content: '-';
+                margin-right: .5em;
+                margin-left: .5em;
+            }
+
+            &:last-child::after {
+                content: none;
+            }
+        }
+    }
+}
+
+svg {
+    height: 400px;
+}
