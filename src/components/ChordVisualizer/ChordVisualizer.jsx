@@ -2,8 +2,13 @@ import React from 'react'
 import chord from './mockChord.json'
 import { Score } from 'react-vexflow'
 import './ChordVisualizer.scss'
+import Button from '../utilities/Button/Button'
 
 const ChordVisualizer = () => {
+    const handleClick = () => {
+        console.log('clickidy click')
+    }
+
     return (
         <main className="ChordVisualizer card">
             <div className="Chord">
@@ -14,6 +19,7 @@ const ChordVisualizer = () => {
                     ))}
                 </ul>
             </div>
+            <Button text={"Next"} handleClick={handleClick}/>
 
 {/*             <Score
                 className="score"

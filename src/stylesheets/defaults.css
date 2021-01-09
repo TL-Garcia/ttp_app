@@ -1,7 +1,8 @@
 :root {
     --base-dark: #3e3048;
     --base-light: #ebe1ff;
-    --contrast-light: #8879a7;
+    --contrast-light: #EDE6FB;
+    --contrast-medium: #8879a7;
     --base-gradient: var(--base-light), white;
 
     --base-radius: 3px;

@@ -1,0 +1,13 @@
+.Button {
+    background-color: var(--contrast-medium);
+    border: none;
+    border-radius: var(--base-radius);
+    box-shadow: var(--base-shadow);
+    color: white;
+    padding: 0.5em 1em;
+
+    &:active {
+        transform: scale(0.7);
+        transform: translateY(4px);
+    }
+}
