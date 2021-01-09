@@ -4,6 +4,7 @@
    ========================================================================== */
    * {
        margin: 0;
+       padding: 0;
    }
 
 /**
@@ -42,7 +43,6 @@
   
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
   }
   
   /* Grouping content
@@ -78,6 +78,11 @@
   
   a {
     background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
   
   /**

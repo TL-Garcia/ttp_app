@@ -1,0 +1,41 @@
+.Header {
+    background-color: var(--base-dark);
+    padding: 1.5em;
+
+    & .content {
+        align-items: baseline;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        flex: 1 1 65%;
+    }
+}
+
+.Navbar {
+    flex: 1 1 35%;
+    padding: 0 1.5em;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    &__link a {
+        color: white;
+    }
+}
+
+//Fallback for flex-gap
+@supports not (gap: 0.5em) {
+    @media screen and (max-width: 700px) {
+        .Navbar__link {
+            margin-bottom: 0.5em;
+            margin-right: 0.5em;
+        }
+    }
+}

@@ -1,3 +1,9 @@
 .vh100 {
     height: 100vh;
 }
+
+.content {
+    max-width: 1200px;;
+    margin-right: auto;
+    margin-left: auto;
+}

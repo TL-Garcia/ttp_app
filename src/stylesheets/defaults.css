@@ -1,0 +1,14 @@
+:root {
+    --base-dark: #3e3048;
+    --base-light: #ebe1ff;
+    --contrast-light: #8879a7;
+    --base-gradient: var(--base-light), white
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #fff;
+}
