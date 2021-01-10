@@ -7,14 +7,15 @@ import './ChordVisualizer.scss'
 const ChordVisualizer = ({ chords }) => {
     const [chordList, setChordList] = useState(chords)
     const [currentChord, setCurrentChord] = useState(chordList[0])
-    const randIndex = getRandNumber(0, chordList.length - 1)
 
     const nextChord = () => {
+        const randIndex = getRandNumber(0, chordList.length - 1)
         const randChord = chordList[randIndex]
         setCurrentChord(randChord)
     }
 
     const discardChord = () => {
+        const randIndex = getRandNumber(0, chordList.length - 1)
         const updatedChordList = chordList.filter(
             (c) => c._id !== currentChord._id
         )
@@ -32,20 +33,16 @@ const ChordVisualizer = ({ chords }) => {
                     ))}
                 </ul>
             </div>
+
+            {/*             <Score
+                className="score"
+                staves={[currentChord.notes]}
+            /> */}
+
             <div className="ChordVisualizer__controls">
                 <Button text={'Next'} handleClick={nextChord} />
                 <Button text={'Discard'} handleClick={discardChord} />
             </div>
-
-            {/*             <Score
-                className="score"
-                staves={[
-                    ['g4', 'd4', 'e4', 'd4'],
-                    ['a4', 'd4', 'e4', 'd4'],
-                    ['a4', 'a4', 'b4', 'a4'],
-                    ['d4', 'e4', ['g3', 2]],
-                ]}
-            /> */}
         </main>
     )
 }
