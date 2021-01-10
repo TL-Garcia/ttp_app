@@ -4,7 +4,7 @@
     &__content {
         display: grid;
         grid-template-areas: 'filter visualizer';
-        grid-template-columns: 1fr minmax(400px, 650px);
+        grid-template-columns: 1fr minmax(340px, 650px);
         padding: 8em 1.5em;
     }
 

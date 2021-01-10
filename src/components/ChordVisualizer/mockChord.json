@@ -1,10 +1,132 @@
-{
-    "notes": ["C", "E", "G"],
-    "tensions": [],
-    "_id": "5ff74bdcb0814f5259e7ea46",
-    "name": "C major",
-    "symbol": "C",
-    "createdAt": "2021-01-07T17:58:52.859Z",
-    "updatedAt": "2021-01-07T17:58:52.859Z",
-    "id": "5ff74bdcb0814f5259e7ea46"
-}
+[
+    {
+        "notes": ["C", "E", "G"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea46",
+        "name": "C major",
+        "symbol": "C",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea46"
+    },
+    {
+        "notes": ["E", "G#", "B"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea50",
+        "name": "E major",
+        "symbol": "E",
+        "createdAt": "2021-01-07T17:58:52.860Z",
+        "updatedAt": "2021-01-07T17:58:52.860Z",
+        "id": "5ff74bdcb0814f5259e7ea50"
+    },
+    {
+        "notes": ["B", "D#", "F#"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea51",
+        "name": "B major",
+        "symbol": "B",
+        "createdAt": "2021-01-07T17:58:52.860Z",
+        "updatedAt": "2021-01-07T17:58:52.860Z",
+        "id": "5ff74bdcb0814f5259e7ea51"
+    },
+    {
+        "notes": ["F#", "A#", "C#"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea52",
+        "name": "F# major",
+        "symbol": "F#",
+        "createdAt": "2021-01-07T17:58:52.860Z",
+        "updatedAt": "2021-01-07T17:58:52.860Z",
+        "id": "5ff74bdcb0814f5259e7ea52"
+    },
+    {
+        "notes": ["F", "A", "C"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea47",
+        "name": "F major",
+        "symbol": "F",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea47"
+    },
+    {
+        "notes": ["Bb", "D", "F"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea48",
+        "name": "Bb major",
+        "symbol": "Bb",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea48"
+    },
+    {
+        "notes": ["Eb", "G", "Bb"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea49",
+        "name": "Eb major",
+        "symbol": "Eb",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea49"
+    },
+    {
+        "notes": ["Ab", "C", "Eb"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea4a",
+        "name": "Ab major",
+        "symbol": "Ab",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea4a"
+    },
+    {
+        "notes": ["Db", "F", "Ab"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea4b",
+        "name": "Db major",
+        "symbol": "Db",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea4b"
+    },
+    {
+        "notes": ["Gb", "Bb", "Db"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea4c",
+        "name": "Gb major",
+        "symbol": "Gb",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea4c"
+    },
+    {
+        "notes": ["G", "B", "D"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea4d",
+        "name": "G major",
+        "symbol": "G",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea4d"
+    },
+    {
+        "notes": ["D", "F#", "A"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea4e",
+        "name": "D major",
+        "symbol": "D",
+        "createdAt": "2021-01-07T17:58:52.859Z",
+        "updatedAt": "2021-01-07T17:58:52.859Z",
+        "id": "5ff74bdcb0814f5259e7ea4e"
+    },
+    {
+        "notes": ["A", "C#", "E"],
+        "tensions": [],
+        "_id": "5ff74bdcb0814f5259e7ea4f",
+        "name": "A major",
+        "symbol": "A",
+        "createdAt": "2021-01-07T17:58:52.860Z",
+        "updatedAt": "2021-01-07T17:58:52.860Z",
+        "id": "5ff74bdcb0814f5259e7ea4f"
+    }
+]
