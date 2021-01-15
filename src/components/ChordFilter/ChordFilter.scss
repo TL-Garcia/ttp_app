@@ -1,0 +1,21 @@
+.ChordFilter {
+    width: 300px;
+
+    &__title {
+        color: var(--base-dark);
+        margin-bottom: 1em;
+    }
+}
+
+.Input-group {
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: .5em;
+    padding: 0;
+
+    &__legend {
+       //display: block; 
+       margin-bottom: .5em;
+    }
+}
