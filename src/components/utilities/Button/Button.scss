@@ -4,7 +4,8 @@
     border-radius: var(--base-radius);
     box-shadow: var(--base-shadow);
     color: white;
-    padding: 0.5em 1em;
+    height: 2.2em;
+    width: 6em;
 
     &:active {
         transform: scale(0.7);
