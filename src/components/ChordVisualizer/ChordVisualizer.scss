@@ -15,7 +15,7 @@
     display: grid;
     gap: 2.5em;
     height: var(--chord-diameter);
-    margin: 0 auto;
+    margin: 40px auto 50px;
     padding: 1em;
     place-content: center center;
     width: var(--chord-diameter);
@@ -46,4 +46,10 @@
 svg {
     height: 100px;
     margin-bottom: 2em;
+}
+
+@media screen and (max-width: 400px) {
+    .Chord {
+        --chord-diameter: 230px;
+    }
 }
