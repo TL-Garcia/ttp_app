@@ -1,7 +1,7 @@
 import React from 'react'
 import './Checkbox.scss'
 
-export const Checkbox = ({ name, value }) => {
+export const Checkbox = ({ handleChange, name, value }) => {
     return (
         <label className="Checkbox">
             <input
@@ -9,6 +9,7 @@ export const Checkbox = ({ name, value }) => {
                 className="Checkbox__input"
                 name={name}
                 value={value}
+                onChange={handleChange}
             ></input>
             {value}
         </label>
